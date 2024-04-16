@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
 body {
-  background-color: #fbfbf9
-}
+    background-color: #fbfbf9
+  }
 
-.titulo {
+.video {
+    display: flex;
+    justify-content: center;
+   }
+
+   .titulo {
     display: flex;
     padding: 20px;
     font-family: "Noto Sans", sans-serif;
@@ -15,38 +18,31 @@ body {
     margin-bottom: 0;
 }
 
-.intro {
+.c-text {
     display: grid;
     padding: 10px;
     justify-content: center;
     font-family: "Noto Sans", sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 500;
     gap: 300px;
     margin-bottom: 20px;
     grid-template-columns: 30% 40% 30%;
+    padding-left: 400px;
+}
+
+.list {
+    
+    padding-left: 0;
 }
 
 
   .br{
     font-family: "Noto Sans", sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
   }
    
    a:hover {
     color: #EC7063;
-   }
-
-   .chegada {
-    display: flex;
-    width: 100%;
-   }
-
-   .video {
-    display: grid;
-    padding: 10px;
-    margin-bottom: 20px;
-    grid-template-columns: 30% 40% 30%;
-    width: 100%;
    }
