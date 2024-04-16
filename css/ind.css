@@ -1,5 +1,6 @@
 body {
-    background-color: #fbfbf9
+    background-color: #fbfbf9;
+    
   }
 
 .video {
@@ -16,6 +17,7 @@ body {
     margin-top: 70px;
     justify-content: center;
     margin-bottom: 0;
+    
 }
 
 .c-text {

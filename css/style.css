@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
-  background-color: #fbfbf9
+@keyframes animacao{
+  from {background-color: #bfddf3;}
+  to {background-color: #fbfbf9;}
 }
+
+@keyframes font{
+  from {color: #bfddf3;}
+  to {color: #000000;}
+}
+
+
+body {
+    background-color: #fbfbf9;
+    animation-name: animacao;
+    animation-duration: 3s;
+  }
 
 .titulo {
     display: flex;
@@ -13,6 +26,8 @@ body {
     margin-top: 70px;
     justify-content: center;
     margin-bottom: 0;
+    animation-name: font;
+    animation-duration: 3s;
 }
 
 .intro {
@@ -25,6 +40,8 @@ body {
     gap: 300px;
     margin-bottom: 20px;
     grid-template-columns: 30% 40% 30%;
+    animation-name: font;
+    animation-duration: 3s;
 }
 
 
@@ -32,6 +49,8 @@ body {
     font-family: "Noto Sans", sans-serif;
     font-size: 25px;
     font-weight: 700;
+    animation-name: font;
+    animation-duration: 3s;
   }
    
    a:hover {
